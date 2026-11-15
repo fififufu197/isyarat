@@ -1,0 +1,11 @@
+# Vercel CLI: jangan unggah artefak lokal; aset MediaPipe dibuat saat build.
+.next
+node_modules
+.git
+.vercel
+*.tsbuildinfo
+.env
+.env.local
+.env*.local
+public/mediapipe
+public/models
